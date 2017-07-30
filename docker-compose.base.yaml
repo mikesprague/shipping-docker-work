@@ -17,7 +17,7 @@ services:
     networks:
      - sd-net
   mysql:
-    image: mysql:5.7
+    image: mariadb:latest
     volumes:
      - mysqldata:/var/lib/mysql
     networks:
