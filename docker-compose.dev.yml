@@ -2,7 +2,7 @@ version: '2'
 services:
   nginx:
     ports:
-     - "80:80"
+     - "81:80"
   php:
     environment:
       APP_ENV: local
